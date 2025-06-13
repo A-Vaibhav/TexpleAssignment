@@ -9,7 +9,12 @@ The task is to deploy a full-stack web application on AWS using Docker for conta
 
 ### 1. Terraform Setup:
 #### Provision AWS Resources using Terraform:
-- **EC2 instance** to host the frontend, backend, and NGINX containers.
+- **EC2 instance** with the following specifications:
+  - **OS**: Ubuntu (free tier eligible)
+  - **Instance Type**: `t2.micro`
+  - **Storage**: 8 GB (default)
+  - **Region**: `ap-south-1` (Mumbai)
+
 - **ECR repositories** for both frontend and backend Docker images.
 - **IAM roles and Security Groups** for EC2 to pull images from ECR and allow HTTP/HTTPS traffic.
 
@@ -46,4 +51,3 @@ The task is to deploy a full-stack web application on AWS using Docker for conta
 ---
 
 Feel free to adjust any section as needed. This provides a clear structure of the task in Markdown format for easy viewing in GitHub or any markdown-compatible environment.
-
