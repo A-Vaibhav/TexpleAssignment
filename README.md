@@ -21,6 +21,7 @@ The task is to deploy a full-stack web application on AWS using Docker for conta
 **Important:** Use a lowercase prefix for all resource names to avoid conflicts (e.g., `ec2-frontend-yourname`, `ecr-frontend-yourname`, `sg-webapp-yourname`).
 
 ### 2. Dockerization & ECR:
+- **Copy the Code to EC2.
 - **Create Docker images** for both the frontend and backend applications (React app for frontend, Node.js API for backend).
 - **Push Docker images to AWS ECR** with names like `frontend-yourname` and `backend-yourname`.
 
@@ -49,5 +50,3 @@ The task is to deploy a full-stack web application on AWS using Docker for conta
 - **SSL** should be enabled and working.
 
 ---
-
-Feel free to adjust any section as needed. This provides a clear structure of the task in Markdown format for easy viewing in GitHub or any markdown-compatible environment.
